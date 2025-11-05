@@ -23,14 +23,15 @@
     <footer class="footer">
       <small>
         &copy;
-        <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> ejqs.
+        All rights reserved. Opinions are my own.
       </small>
     </footer>
   </div>
 
   {% if site.ga_analytics %}
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VC1WRV61EB"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
