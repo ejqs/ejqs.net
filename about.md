@@ -3,27 +3,19 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hello, I'm EJ. I just recently graduated with a Bachelors in Computer Science, and now I'm trying to figure out life.
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I created this website as an outlet of what I'm thinking about and what I've learned, so as to share it to you, the endless empty void of the internet.
 
-There are currently two themes built on Poole:
+I'm not so sure if anyone will be reading this, but at the very least, probably my future self (or idk).
 
-- [Hyde](https://hyde.getpoole.com)
-- [Lanyon](https://lanyon.getpoole.com)
+<p class="small">if you are reading this, send me an email ejqs [at] ejqs [d0t]net, say Hello!</p>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+In my website, I will try to post things that I've learned over time. These "things" may be related to software things, ai?, or probably just reflections I've had over the previous months.
 
-## Setup
+I will try to post something every few months.
 
-Some fun facts about the setup of this project include:
+---
 
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Atom](https://atom.io), an amazing open source code editor
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+[RSS](https://ejqs.net/atom.xml) \
+[GitHub Source](https://github.com/ejqs/ejqs.net)
