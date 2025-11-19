@@ -5,7 +5,7 @@ title: About
 
 I'm EJ. I have a BS Degree in CompSci... that's it.
 
-I created this website as an outlet of what I have been thinking about and what I've learned, so as to share it to you, the endless empty void of the internet.
+I created this website as an outlet for my thoughts and the things that I've learned, so as to share it to you, the endless empty void of the internet.
 
 ## what to expect
 
