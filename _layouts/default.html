@@ -20,13 +20,18 @@
       {{ content }}
     </main>
 
-    <footer class="footer">
+    <footer class="footer" style="display: flex; justify-content: space-between; color: var(--gray-600)">
       <small>
 
+        <a style="color: var(--gray-600)" href="https://x.com/ejqs_">X</a>
+        <a style="color: var(--gray-600)" href="https://github.com/ejqs">GitHub</a>
+        <a style="color: var(--gray-600)" href="/atom.xml">RSS</a>
+      </small>
+      <small>
         &copy;
-        <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> EJQS.
-        All rights reserved.
-        <p style="color: var(--gray-600)">Opinions are my own.</p>
+        <time datetime=" {{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> EJQS
+
+
       </small>
     </footer>
   </div>
