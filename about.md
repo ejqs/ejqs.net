@@ -17,5 +17,4 @@ I will try to post something every few months.
 
 ---
 
-[RSS](https://ejqs.net/atom.xml) \
 [GitHub Source](https://github.com/ejqs/ejqs.net)
