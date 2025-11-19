@@ -42,11 +42,14 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
+  - title: Posts
     url: /archive
+
+  - title: Tags
+    url: /tags
 
   - title: About
     url: /about
 
-  - title: "Portfolio"
+  - title: Portfolio
     url: https://ejqs.dev
