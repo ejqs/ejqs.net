@@ -36,17 +36,7 @@
     </footer>
   </div>
 
-  {% if site.ga_analytics %}
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.ga_analytics }}');
-  </script>
-  {% endif %}
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="60f71ed0-25cd-4a0b-a3e8-09b030ed891a"></script>
 </body>
 
 </html>
