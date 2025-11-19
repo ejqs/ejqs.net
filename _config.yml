@@ -28,8 +28,7 @@ sass:
 
 # Options
 
-# Replace this value and uncomment to enable Google Analytics tracking
-ga_analytics: G-VC1WRV61EB
+# Using https://umami.is/ for analytics
 
 # Specify the author for blog posts
 author:
