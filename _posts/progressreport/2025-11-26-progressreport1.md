@@ -30,5 +30,6 @@ What a great start to this progress log. What went wrong? I was too ambitious an
 
 November 27 - December 3
 
-- 20 mins a day on Designing Data-Intensive Applications
+- 20 mins a weekday of Designing Data-Intensive Applications
+- 20 mins a weekend of something ML related
 - Burn through my WaniKani backlogs... at least bring it down from 370 to 170 (take 2)
