@@ -3,31 +3,29 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<section class="page">
+  <h2 class="page-title">About</h2>
+  <p>
+    average, cs graduate 2025. learning software development/architecture, machine learning, languages (japanese,
+    chinese), bass
+    (guitar).
+    <br />
+    <br />
+    posting anything i found interesting
+  </p>
+  <p>
+    <a href="{{ '/about' | relative_url }}">Read more</a>
+  </p>
+</section>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.content }}
+<section class="page">
+  <h2 class="page-title">Latest Posts</h2>
+  {% for post in site.posts limit:3 %}
+  <article class="post" style="margin-bottom: 1.5rem;">
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%b %-d, %Y' }}</time>
+    <h3 class="post-title" style="margin: 0;">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
   </article>
   {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+</section>
