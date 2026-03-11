@@ -9,10 +9,12 @@ I created this website as an outlet for my thoughts and the things that I've lea
 
 ## what to expect
 
-Posting a progress report every Wednesday [^fn-x_post].
+- ~~Posting a progress report every Wednesday [^fn-x_post]~~.
+- 2026-03-11 Progress reports paused. [^fn-x_post2]
 
----
+<small>(wait are you actually reading this? send me a message on X or email ejqs@...)</small>
 
 [GitHub Source](https://github.com/ejqs/ejqs.net)
 
 [^fn-x_post]: [x.com/ejqs\_/status/19911353...](https://x.com/ejqs_/status/1991135330666246199)
+[^fn-x_post2]: [link](/2026/03/11/going-backwards/)

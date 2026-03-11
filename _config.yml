@@ -50,5 +50,8 @@ nav:
   - title: About
     url: /about
 
-  - title: Portfolio
-    url: https://ejqs.dev
+  # - title: Portfolio
+  #   url: https://ejqs.dev
+
+  - title: Roam
+    url: https://roamresearch.com/#/app/ejqs-public
