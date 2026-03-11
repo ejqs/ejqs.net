@@ -47,8 +47,8 @@ nav:
   - title: Tags
     url: /tags
 
-  - title: About
-    url: /about
+  # - title: About
+  #   url: /about
 
   # - title: Portfolio
   #   url: https://ejqs.dev
