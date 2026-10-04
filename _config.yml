@@ -41,6 +41,9 @@ version: 3.0.0
 
 # Navbar page list
 nav:
+  - title: Projects
+    url: /projects
+
   - title: Posts
     url: /archive
 
@@ -52,6 +55,3 @@ nav:
 
   # - title: Portfolio
   #   url: https://ejqs.dev
-
-  - title: Roam
-    url: https://roamresearch.com/#/app/ejqs-public
