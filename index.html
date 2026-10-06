@@ -4,28 +4,14 @@ title: Home
 ---
 
 <section class="page">
-  <h1 class="page-title">About</h2>
-    <p>
-      average, cs graduate 2025. learning software development/architecture, machine learning, languages (japanese,
-      chinese), bass
-      (guitar).
-      <br />
-      <br />
-      posting anything i found interesting
-    </p>
-    <p>
-      <a href="{{ '/about' | relative_url }}">Read more</a>
-    </p>
-</section>
-
-<section class="page">
-  <h2 class="page-title">Latest Posts</h2>
-  {% for post in site.posts limit:3 %}
-  <article class="post" style="margin-bottom: 1.5rem;">
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%b %-d, %Y' }}</time>
-    <h3 class="post-title" style="margin: 0;">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-  </article>
-  {% endfor %}
+  <h1 class="page-title">About</h1>
+  <p>
+    average, cs graduate 2025.
+    <br />
+    <br />
+    posting anything i found interesting
+  </p>
+  <p>
+    <a href="{{ '/about' | relative_url }}">Read more</a>
+  </p>
 </section>

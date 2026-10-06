@@ -41,14 +41,14 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Projects
-    url: /projects
+  - title: Software
+    url: /software
 
-  - title: Posts
-    url: /archive
+  - title: Design
+    url: /design
 
-  - title: Tags
-    url: /tags
+  - title: Research
+    url: /research
 
   # - title: About
   #   url: /about

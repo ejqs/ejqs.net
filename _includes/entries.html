@@ -1,0 +1,15 @@
+{% assign entries = "" | split: "" %}
+{% for item in site.pages %}
+  {% assign item_folder = item.path | split: "/" | first %}
+  {% if item_folder == include.folder and item.name != "index.md" %}
+    {% assign entries = entries | push: item %}
+  {% endif %}
+{% endfor %}
+{% assign entries = entries | sort: "title" %}
+{% if entries.size > 0 %}
+<ul>
+  {% for entry in entries %}
+  <li><a href="{{ entry.url | relative_url }}">{{ entry.title | default: entry.name }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}

@@ -1,4 +1,0 @@
-# Add a project: name, url, description
-- name: Roam Publish
-  url: https://github.com/ejqs/roam-publish-web
-  description: Publish your Roam Research graph as a website.
