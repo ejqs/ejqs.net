@@ -5,11 +5,14 @@
     {% assign entries = entries | push: item %}
   {% endif %}
 {% endfor %}
-{% assign entries = entries | sort: "title" %}
+{% assign entries = entries | sort: "date" | reverse %}
 {% if entries.size > 0 %}
 <ul>
   {% for entry in entries %}
-  <li><a href="{{ entry.url | relative_url }}">{{ entry.title | default: entry.name }}</a></li>
+  <li>
+    <a href="{{ entry.url | relative_url }}">{{ entry.title | default: entry.name }}</a>
+    <time datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: "%b %-d, %Y" }}</time>
+  </li>
   {% endfor %}
 </ul>
 {% endif %}
