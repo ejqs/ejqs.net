@@ -34,8 +34,11 @@ Write the entry here.
 
 `index.md` is the list, not an entry.
 
+`software/index.md` ends with a Buy Me a Coffee link. The handle is `buymeacoffee` in `_config.yml`; remove that line to hide the link.
+
 | Entry | File | Date |
 | --- | --- | --- |
+| downagain | `software/2026-10-22-downagain.md` | 2026-10-22, the day it was added to this site |
 | Roam Publish | `software/2026-10-04-roam-publish.md` | 2026-10-04, the day it was added to this site |
 | Beyond Keywords | `research/2025-04-29-beyond-keywords.md` | 2025-04-29, collection last updated |
 | PHLEX | `research/2024-08-06-phlex.md` | 2024-08-06, dataset created |
