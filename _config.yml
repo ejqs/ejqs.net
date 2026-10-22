@@ -39,6 +39,9 @@ author:
 # Custom vars
 version: 3.0.0
 
+# Buy Me a Coffee handle, linked at the bottom of /software
+buymeacoffee: ejqs
+
 # Navbar page list
 nav:
   - title: Software
